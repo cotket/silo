@@ -1,4 +1,4 @@
-# public-facing P2P node, advertise public IP address
+# public-facing P2P node, advertise public IP address, kid
 PUBLIC_IP=$(curl -s v4.ident.me)
 export OP_NODE_P2P_ADVERTISE_IP=$PUBLIC_IP
 
